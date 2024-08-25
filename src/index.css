@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #3683f0;
+  width: 2rem; /* 32px */
+  height: 2rem; /* 32px */
+  border-radius: 50%; 
+}
+
+.footerIcon{
+    background-color: #0029ff;
+    align-self: flex-end;
+    cursor: pointer;
+    width: 4rem;
+    height: auto;
+    border-radius: 50%;
+    font-size: 2.25rem;
+    padding: 1rem;
+}
