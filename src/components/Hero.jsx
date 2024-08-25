@@ -151,7 +151,7 @@ function Hero() {
               </div>
               <p className='relative top-6 left-16'>You have a concept, How willyou put into progress?</p>
             </>
-          ) : ''}
+          ) : <p>Data Fetching...</p>}
 
         />
       </div>
