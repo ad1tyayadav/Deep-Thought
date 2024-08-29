@@ -15,7 +15,7 @@ function Card({ title, desc, content }) {
                 <p className='relative top-4 pl-4 shadow h-20 w-full'>
                     <b>Description:</b> {desc}
                 </p>
-           <div>{content}</div>
+                <div>{content}</div>
             </div>
         </div>
     )
