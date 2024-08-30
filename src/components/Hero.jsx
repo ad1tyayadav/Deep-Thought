@@ -15,7 +15,6 @@ function Hero() {
 
   const [data, setData] = useState(null)
 
-
   useEffect(() => {
     async function callData() {
       try {
@@ -29,10 +28,6 @@ function Hero() {
     callData();
 
   }, [])
-
-
-
-
 
   return (
     <>
